@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="d-flex flex-column h-100">
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark py-3">
+        <div class="container-fluid">
+          <div class="d-flex align-items-center">
+            <div
+              class="d-flex justify-content-center align-items-center overflow-hidden rounded-circle"
+              style="height: 65px; width: 65px"
+            >
+              <img src="./img/avatar.png" class="w-100" alt="..." />
+            </div>
+            <div class="text-light ms-3">
+              <div class="fs-3">Евгений Панченко</div>
+              <div>P41091</div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="flex-shrink-0 pt-3">
+      <div class="container">
+        <h2 class="fs-1 text-center mb-4">Портфолио</h2>
+        <div class="d-flex justify-content-center">
+          <div class="card me-3 w-25">
+            <div
+              class="d-flex justify-content-center align-items-center overflow-hidden h-75 w-100"
+            >
+              <img
+                src="./img/formula.jpg"
+                class="card-img-top mh-10"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title mb-3">Математическая формула</h5>
+              <a
+                href="./formula/tmpl.xml"
+                class="btn btn-primary"
+                target="_blank"
+                >Перейти</a
+              >
+            </div>
+          </div>
+          <div class="card w-25">
+            <div
+              class="d-flex justify-content-center align-items-center overflow-hidden h-75 w-100"
+            >
+              <img
+                src="./img/circles.png"
+                class="card-img-top mh-10"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title mb-3">Круги Эйлера</h5>
+              <a
+                href="./circle/tmpl.xml"
+                class="btn btn-primary"
+                target="_blank"
+                >Перейти</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer mt-auto py-3 px-3 bg-dark">
+      <div class="text-light text-center fs-5">©Евгений Панченко 2022</div>
+    </footer>
+  </body>
+</html>
